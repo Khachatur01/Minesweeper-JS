@@ -1,0 +1,37 @@
+.win{
+	display: block;
+	background: url("../assets/win.png") no-repeat scroll 0 0 transparent;	
+    width: 64px;
+    height: 64px;
+}
+.lose{
+	display: block;
+	background: url("../assets/lose.png") no-repeat scroll 0 0 transparent;
+    width: 64px;
+    height: 64px;
+}
+
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+
+.opened{
+	visibility: hidden;
+}
+.count{
+	border: 0;
+}
+.mine{
+	border: 0;
+	background: url("../assets/boom.png") no-repeat scroll 0 0 transparent;
+}
+.flag{
+	border: 0;
+	background: url("../assets/flag.png") no-repeat scroll 0 0 transparent;
+}
+.closed{
+	
+}

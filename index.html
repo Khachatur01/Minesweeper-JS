@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" href="style/style.css">
+
+	<script src="js/logic.js"></script>
+</head>
+<body>
+	<table id="board">
+		
+	</div>
+	<div> 
+		<div id="message" class="hide"></div>
+		<label>Board Size (min 5)
+			<input type="number" id="size"  min="0" value="10">
+		</label>
+		
+		<br>
+		<label>Level (between 1 to 10)
+			<input type="number" id="level" min="1" max="10" value="1">
+		</label>
+		<br>
+		<button id="newGame">New game</button>
+
+		<h3 id="flags" class="hide">
+			Flags  
+			<span id="flagsCount">0</span>
+			of
+			<span id="maxFlagsCount">0</span>
+		</h3>
+	</div>
+</body>
+</html>
